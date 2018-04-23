@@ -1,0 +1,24 @@
+{
+  "name": "openfile",
+  "version": "0.0.0",
+  "description": "this Module Open Files By there Default Apps Support Android Only",
+  "main": "index.android.js",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nativescript",
+    "OpenFile",
+    "file-system"
+  ],
+  "author": "Elmissouri",
+  "license": "MIT",
+  "dependencies": {
+    "mim": "^0.3.1"
+  }
+}
