@@ -1,6 +1,6 @@
 {
-  "name": "openfile",
-  "version": "0.0.0",
+  "name": "nativescript-openfile",
+  "version": "0.0.1",
   "description": "this Module Open Files By there Default Apps Support Android Only",
   "main": "index.android.js",
   "nativescript": {
@@ -14,7 +14,8 @@
   "keywords": [
     "Nativescript",
     "OpenFile",
-    "file-system"
+    "file-system",
+    "Android"
   ],
   "author": "Elmissouri",
   "license": "MIT",
