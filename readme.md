@@ -7,4 +7,5 @@ npm i nativescript-openfile
 var openfile = require("nativescript-openfile");
     openfile("file_path");
 ```
+#### Author   [Elmissouri](https://twitter.com/elmissouri16)
 
