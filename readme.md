@@ -4,7 +4,7 @@
 npm i nativescript-openfile
 ```
 ```javascript
-var openurl = require("nativescript-openfile");
-    openurl("file_path");
+var openfile = require("nativescript-openfile");
+    openfile("file_path");
 ```
 
