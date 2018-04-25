@@ -1,6 +1,6 @@
 {
   "name": "nativescript-openfile",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "this Module Open Files By there Default Apps Support Android Only",
   "main": "index.android.js",
   "nativescript": {
