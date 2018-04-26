@@ -7,7 +7,7 @@ npm i nativescript-openfile
 var openfile = require("nativescript-openfile");
     openfile("file_path");
 ```
- - TODO
+- TODO
    - [ ] Support More Files
 #### Author   [Elmissouri](https://twitter.com/elmissouri16)
 
