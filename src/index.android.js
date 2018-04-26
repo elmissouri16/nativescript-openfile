@@ -1,16 +1,16 @@
 "use strict";
-var mime = require('mim');
+var mime = require('./lib/mime_types');
 var application = require("application");
-var getContext = function () {
-    if (application.android.context) {
-        return (application.android.context);
-    }
-    var ctx = java.lang.Class.forName("android.app.AppGlobals").getMethod("getInitialApplication", null).invoke(null, null);
-    if (ctx) return ctx;
+// var getContext = function () {
+//     if (application.android.context) {
+//         return (application.android.context);
+//     }
+//     var ctx = java.lang.Class.forName("android.app.AppGlobals").getMethod("getInitialApplication", null).invoke(null, null);
+//     if (ctx) return ctx;
 
-    ctx = java.lang.Class.forName("android.app.ActivityThread").getMethod("currentApplication", null).invoke(null, null);
-    return ctx;
-};
+//     ctx = java.lang.Class.forName("android.app.ActivityThread").getMethod("currentApplication", null).invoke(null, null);
+//     return ctx;
+// };
 
 var openFile = function (FilePath) {
     try {
@@ -27,5 +27,4 @@ var openFile = function (FilePath) {
         console.log(e);
     }
 };
-
 module.exports = openFile;
