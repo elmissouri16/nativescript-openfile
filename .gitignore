@@ -1,2 +1,4 @@
 .gitignore
+.jshintrc
+.npmignore
 node_modules
